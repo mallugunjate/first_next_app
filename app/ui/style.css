@@ -1,0 +1,108 @@
+.content-wrapper {
+    margin-top: 60px;
+}
+
+.homeRow1 {
+    max-width: 1600px;
+}
+
+.masthead {
+    background: no-repeat center center;
+    background-size: cover;
+}
+
+.masthead .secondary {
+    width: 100%;
+    max-width: 30em;
+    color: #ffffff;
+    float: left;
+    display: block;
+}
+
+.masthead .secondary .inner {
+    min-height: 400px;
+    padding: 40px;
+    position: absolute;
+    margin-top: -482px;
+}
+
+.masthead .secondary h1 {
+    font-size: 3.6em;
+    font-weight: 300;
+}
+
+.masthead .secondary h1:after {
+    content: " ";
+    border-bottom: 1px solid;
+    display: block;
+    margin-top: 0.25em;
+    width: 100px;
+    margin: 0.3em 0;
+}
+
+.masthead .secondary.secondary h3 {
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 0.5em;
+    font-size: 1.6em;
+    margin-top: 0;
+}
+
+
+.homeRow .split {
+    padding: 0;
+}
+
+element.style {
+    min-height: 329px;
+}
+
+.home .homeRow.split .split-teaser {
+    padding-bottom: 210px;
+    padding-right: 15px;
+}
+
+
+.homeRow .split-teaser {
+    width: 50%;
+    padding: 40px;
+    float: left;
+    position: relative;
+    color: #ffffff;
+    float: left;
+    min-height: 329px;
+}
+
+.split-teaser-background-one {
+    background-color: #72BF44;
+}
+
+.has-subhead {
+    margin-bottom: 0;
+    font-weight: 300;
+    font-size: 2.2em
+}
+
+.has-subhead>span {
+    font-size: 0.7em;
+    font-weight: 500;
+    opacity: 0.5;
+    display: inline-block;
+    margin-top: -0.25em;
+    margin-bottom: 0.5em;
+}
+
+.split-teaser-background-one img {
+    max-height: 188px;
+    position: absolute;
+    right: 20px;
+}
+
+.split-teaser-background-two {
+    background-color: #9A9A9A;
+}
+
+.split-teaser-background-two img {
+    max-height: 177px;
+    position: absolute;
+}

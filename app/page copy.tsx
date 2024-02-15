@@ -5,7 +5,7 @@ import Image from 'next/image'
 export default function Page() {
   return (
     <div className='home'>
-      <div className='homeRow masthead'>
+      <div className='row masthead'>
         <Image
                 src="/masthead_mt_baker_alpenglow.jpg"
                 width={1600}
@@ -20,7 +20,7 @@ export default function Page() {
           </div>
         </div>
       </div>
-      <div className="homeRow split">
+      <div className="row split">
         <div className="split-teaser split-teaser-background-one">
             <h2 className="has-subhead">
               <a href="/products" className="big-target big-target-anchor">Our Products  &#8594;<br/></a>
