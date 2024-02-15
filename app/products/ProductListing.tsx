@@ -11,8 +11,6 @@ interface product {
 
 const productsPage = async () => {
 
-  const { prop1} = context.query;
-
   const res = await fetch('https://657ace59394ca9e4af12b4a4.mockapi.io/api/v1/products',  { cache: 'no-store' });
   const products = await res.json();
 
