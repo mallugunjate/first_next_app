@@ -19,7 +19,7 @@ const productsPage = async () => {
       <div className="container">
         <h1>Custom DAFO®</h1>
         {
-          products.map(product =>
+          products.map(product:any =>
           <div className="row" key={product.id}>
             <div className="col">
               <div className={"card text-center"}>
